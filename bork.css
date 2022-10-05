@@ -1,0 +1,600 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+ header .menu{
+    height: 50px;
+  width: -webkit-fill-available;
+  background-color: rgb(240, 54, 54);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px;
+  position: fixed;
+  z-index: 1;
+  position: fixed;
+  margin-top: 0%;
+  list-style: none;
+ 
+ }
+ header .menu :hover{
+  
+    color:white;
+ 
+ }
+
+  
+   a{
+    text-decoration: none;  
+    font-weight: 800;
+    color: black;
+   }
+
+   
+
+.navegacao{
+    
+    width:35%;
+    height:auto;
+}
+
+.sigla{
+    font-weight: 700;
+    font-size: 30px;
+    color: #0e0e0e;
+}
+
+.logo{
+    border-radius: 100% ;
+    width: 13%;
+    height: 30%;
+    left: 8%;
+    position: relative;
+    top: 15px;
+    z-index: 1;
+}
+
+#Home{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    background-position-x: 95%;
+}
+li{
+    width: max-content;
+}
+
+
+.butao{
+   
+    width: 15%;
+    height: 10%;
+    position: relative;
+    top: 20%;
+    left: 42%;
+    border: solid 3px rgb(240, 54, 54);
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 5px;
+}
+
+.butao{
+    transition: 10s;
+}
+
+.but:hover {
+    background-color: rgb(217, 172, 172); 
+    width: 100%;
+    height: 100%; 
+    transition: 1s;
+    
+  }
+
+
+
+button{
+    /* margin-left: 30px;
+    margin-top: 10px; */
+
+    background-color:  beige;
+    background-color: brown;
+}
+
+
+
+
+.bx{
+    font-size: 22px;
+    font-weight: 0;
+    position: absolute;
+    top: 12%;
+    left: 15%;
+    color: white;
+    
+}
+#Bor {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+.dirp{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-size: 20px;
+}
+
+
+#Sobre{
+    width: 100%;
+    height: 80vh;
+}
+.r2{
+ margin-top: 50%;
+}
+.r3{
+    margin-top: 50%;
+    margin-left: -10%;   
+}
+.redes{
+   width: 10%; 
+    position: relative;
+    top: 15%;
+    margin-left: 5%;
+    list-style: none;
+}
+
+.ij{
+    position: relative;
+    top: 30%;
+    left: 5%;
+    width: 30%;
+    height: 60%;
+    border-radius: 50%;
+}
+ 
+.plk{
+    font-size: 20px;
+    font-style: italic;
+}
+.sob{
+    width: 50%;
+    height: max-content;
+    text-align: justify;
+    position: relative;
+    left: 45%;
+    top: -40%;
+    font-size: 20px;
+
+}
+.titly{
+    color: #0e0e0e;
+    position: relative;
+    font-style: italic;
+    font-size:50px ;
+    margin-bottom: 2%;
+}
+
+/* servicos */
+
+#servicos {
+    width: 100%;
+    height: 80vh; 
+    margin-top: 0%;
+    margin-bottom: 4%;
+} 
+
+.content{
+    position: relative;
+    top: -18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    flex-wrap: nowrap;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+.pls{
+    width: 15%;
+    height: 3px;
+    background-color: red;
+    border-radius: 5% 10px;
+    position: relative;
+    left: 45%;
+    top: -30%;
+}
+
+.materia{
+    position: relative;
+    left: 62%;
+    top: -27%;
+    width: max-content;
+    height: max-content;
+}
+
+.mater{
+    position: relative;
+    left: 59%;
+    top: -15%;
+    width: max-content;
+    height: max-content;    
+}
+
+.porp{
+    position: relative;
+    left: 59%;
+    top: -20%;
+    width: max-content;
+    height: max-content;     
+}
+.sons{
+    position: relative;
+    left: 65%;
+    top: -15%;
+    width: max-content;
+    height: max-content;       
+}
+
+.vds{
+    position: relative;
+    left: 59%;
+    top: -5%;
+    width: max-content;
+    height: max-content  
+}
+
+.titlesy{
+   position: relative;
+   top: 0%;
+   left: -3%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0%;
+    margin-top:0% ; 
+}
+
+.titlo{
+    color: #0e0e0e;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2%;
+    margin-top:3%;
+    position: relative;
+    top: -5%;
+} 
+.itlo{
+    color: #0e0e0e;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2%;
+    margin-top:5% ;  
+}
+.title{
+    
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2%;
+    margin-top:2%;
+} 
+
+#abil{
+    
+    margin-top: 5%;
+    width: 100%;
+    height: 100vh;
+}
+#habilidades{
+    background-color:aquamarine;
+    width: 80%;
+    height: 60vh; 
+    margin-right: 3%;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+.profic{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.conteudo-halidade{
+    display: flex;
+    justify-content: space-between;
+}
+.languages,.skills{
+
+width: 50%;
+padding: 20px;
+}
+.languages h2,.skills h2{
+text-transform: capitalize;
+margin-bottom: 40px;
+}
+.progress{
+max-width: 400px;
+
+}
+
+.progressbar{
+width: 100%;
+background-color: white;
+height: 10px;
+border-radius: 5px;
+position: relative;
+clear: both;
+margin-bottom: 40px;
+}
+.progresso{
+background-color: aquamarine;
+height: 5px;
+border-radius: 5px;
+position: absolute;
+border: solid 1px rgb(240, 54, 54);
+}
+.html1{
+width: 80%;
+height: 10px;
+}
+.css1{
+width: 60%;
+height: 10px;
+}
+.javascript1{
+width: 50%;
+height: 10px;
+}
+
+
+.port{
+    height: 10px;
+width: 100%; 
+}
+.ing{
+    height: 10px;
+width: 80%;
+}
+.fra{
+    height: 10px;
+width: 99%;
+}
+
+.tech{
+float: left;
+}
+.perc{
+float: right;
+}
+.conteudo-halidade h2{
+font-size: 23px;
+}
+
+.icon{
+    width: 50%;
+    height: 90px;
+    font-size: 90px;
+    background-color: aquamarine;
+    position: relative;
+    left: 25%;
+    top: -15%;
+}
+.material-icons{
+    font-size: 90px;
+    color:#0e0e0e;
+    margin-left: 19%;
+}
+
+.caixa{
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  background-color: aquamarine;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.caixa:hover{
+    transition: all 1s;
+    transform: scale(1.1,1.1);
+}
+
+.caixa p{
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+.caixa h2{
+    position: relative;
+    top: 0%;
+    text-align: center;
+    
+}
+
+   #Portifolio{
+    width: 100%;
+    height: 80vh; 
+    margin-bottom: 20%;
+   }
+  
+   .inp{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -10%;
+    width: 80%;
+   }
+   
+   
+
+   
+.slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
+.slide-controller:nth-child(2):checked ~ .slide-show .slides-list{--selected-item: 1;}
+.slide-controller:nth-child(3):checked ~ .slide-show .slides-list{--selected-item: 2;}
+.slide-controller:nth-child(4):checked ~ .slide-show .slides-list{--selected-item: 3;}
+
+.slide-show{
+  overflow: hidden;
+  margin-left: 0%;
+ overflow-x: scroll; 
+ 
+}
+
+.slides-list{
+  --selected-item: 0;
+  --total-items: 4;
+  list-style-type: none;
+  margin: 10px 5px;
+  padding: 0;
+  position: relative;
+  left: calc(var(--selected-item) * -100%);
+  width: calc(var(--total-items) * 100%);
+  transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  
+
+  
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+
+
+   .flaot{
+    margin: 20px;
+    height: 300px;
+    width: 400px;
+    /* border: solid 3px black; */
+   }
+
+
+   #Filmes{
+    width: 100%;
+    height: 200vh; 
+    margin-top: 0%;
+    position: relative;
+    top: 80%;
+    
+   
+   }
+
+   .films{
+   margin-left: 5%;
+   
+   }
+
+   #Musicas{
+    
+    width: 100%;
+    height: 110vh; 
+   margin-bottom: 5%;
+    margin-top: 5%;
+   }
+   
+   .aod{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -3%;
+   }
+   .od{
+    width: 100%;
+   }
+
+   #Contacto{
+    width: 100%;
+    height: 90vh;
+    background-color:aquamarine;
+    
+   }
+
+   #mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 600px;
+    margin-left: 30%;
+    position: relative;
+    top: 5%;
+  }
+  
+  #mc_embed_signup h1{
+  text-align: center;
+  font-size: 30px;
+  }
+   
+
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 98%; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ab4493; 
+	margin-top: 0px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+
+
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+#mc-embedded-subscribe{
+    width: 30%;
+    background-color:whitesmoke;
+    margin-left: 7%;
+    transition: 1s;
+}
+
+#mc-embedded-subscribe:hover{
+    cursor: pointer;
+    background-color:red;
+    transition: 2s;
+    
+}
+
+label{
+    font-size: 22px;
+    position: relative;
+    top:0%;
+}
+
+button{
+	color: #fff; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

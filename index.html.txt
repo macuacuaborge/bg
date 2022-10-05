@@ -1,0 +1,172 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv html</title>
+</head>
+<body>
+    <header>
+        <ul >
+
+                <li><a href="#Sobre">Sobre</a></li>        
+                <li><a href="#Habilidade">Habilidades</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Musicasfavoritas">Musicas favoritas</a></li>
+                <li><a href="#Filmesfavoritos">Filmes Favoritos</a></li>                
+                <li><a href="#Servicos">Servicos</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+        </ul>          
+    </header>
+                 
+     <!--sessao de dados pessoais-->
+            <div id="Sobre"> 
+ 
+                       <br><hr>
+                       <h3>DADOS PESSOAIS:</h3>
+                        
+                        <img width="250px" height="300px" src="Nova pasta/65091451_2333597580250475_3956514166449111040_n.jpg"> 
+               <ul>
+                  <li>
+                   <b>Nome:</b> Gerson Anastancio Magombe </li>
+                    <br>
+                        <li><b>E-mail:</b> gersonmagombe@gmail.com </li>
+                        <br>
+                        <li><b>Sexo:</b> Masculino </li>
+                        <br>
+                        <li><b>Estado Civil:</b> Solteiro </li>
+                        <br>
+                        <li><b>Data de nascimento:</b> 14.09.1999 </li>
+                        <br>
+                        <li><b>Cidade:</b> Maputo </li>
+                        <br>
+                         <li><b>Bairro:</b> Bagamoyo </li>
+                         <br>
+                        <li><b>Contacto:</b> 847320779 </li>
+                        <br>
+                        <a href="livro/meulivro.pdf" dowload="meulivro.pdf" target="new blank"> Dowload Cv (pdf) </a>
+
+                        
+                </ul>
+                    </br>
+                     <br><hr>
+            </div>
+            
+     <!--sessao de Competencias-->            
+                 
+                 <div id="Habilidade"> 
+                    <h3>HABILIDADES:</h3> 
+                    
+                 <ul>
+                    <li><p> Capacidade Analitica </li></p>                                      
+                    <li><p> Capacidade de facil  comunicacao </li> </p>                   
+                    <li> Capacidade de trabalhar em equipe </li></p>
+                </ul>  
+                </div>    
+
+     <!--sessao de servicos-->
+            <div id="Servicos"> 
+                    <br><hr>
+                    <h3>SERVICOS</h3>
+                
+                 <ul>  
+                   <li><p>Desenvolvimento de paginas Web</p></li>
+                   <li><p>Montagem de redes de computador</p></li>
+                   <li><p>Hospedagem de paginas Web</p></li>
+                   <li><p>Gestao de base de dados</p></li>
+                </ul>
+            </div>
+    
+    <!--sessao de portfolio-->
+            <div id="Portfolio"> 
+                 <hr>
+                 <h3><b>PORTFOLIO</h3>
+                   
+
+   <img width="250px" height="300px" src="Nova pasta/65091451_2333597580250475_3956514166449111040_n.jpg"> 
+   <img width="250px" height="300px" src="Nova pasta/2019-09-04.jpg" alt="Imagem" title="Pagina web desenvolvida">
+   <img width="250px" height="300px" src="Nova pasta/179988585_2844257332513604_2639336150084894316_n.jpg" alt="Imagem" title="Hospedagem gratuita de pagina web">
+   <img width="250px" height="300px" src="Nova pasta/180300116_2844257502513587_2316903732907185730_n.jpg" alt="Imagem" title="Aplicacoa do css no html">
+   <img width="250px" height="300px" src="Nova pasta/179988585_2844257332513604_2639336150084894316_n.jpg" alt="Imagem" title="Hospedagem gratuita de pagina web">
+   <img width="250px" height="300px" src="Nova pasta/180300116_2844257502513587_2316903732907185730_n.jpg" alt="Imagem" title="Aplicacoa do css no html">  
+  
+    
+
+</div>
+  
+      <!--sessao de Musicas favoritas-->
+
+<div id="Musicasfavoritas"> 
+    <br><hr>         
+       <h3>Musicas Favorias</h3>
+    
+    
+       <legend>Allan-Real-Talk-feat.-Duas-Caras-OG-Vuino-Ubakka.mp3</legend> 
+       <audio controls>
+        <source src="https://www.taduma.com/wp-content/uploads/2021/05/Allan-Real-Talk-feat.-Duas-Caras-OG-Vuino-Ubakka.mp3"></source>
+    </audio><br>
+    <legend>-Prodigio-Morfina-feat.-Carla-Moreno-Daus.mp3</legend>    
+        <audio controls>
+            <source src="https://file.novasongmusica.com/wp-content/uploads/2022/02/7.-Prodigio-Morfina-feat.-Carla-Moreno-Daus.mp3"></source>
+            </audio><br>
+<legend>Bangla10-Intro-Trilogia.mp3</legend>
+            <audio controls>
+                <source src="https://file.novasongmusica.com/wp-content/uploads/2022/02/Bangla10-Intro-Trilogia.mp3"></source>
+                </audio><br>
+                <legend>-Prodigio-Tia-Lara-feat.-Musa-Holly.mp3</legend>
+                <audio controls>
+                    <source src="https://file.novasongmusica.com/wp-content/uploads/2022/02/6.-Prodigio-Tia-Lara-feat.-Musa-Holly.mp3"></source>
+                    </audio><br>
+                    <legend>C4-Pedro-Esta-Tudo-Bem.mp3</legend>
+                    <audio controls>              
+                        <source src="https://file.novasongmusica.com/wp-content/uploads/2022/02/C4-Pedro-Esta-Tudo-Bem.mp3"></source>
+                        </audio><br>
+                        <legend>Dji-Tafinha-Conflituoso-feat-Raphael.mp3</legend>
+                        <audio controls>      
+                            <source src="https://file.novasongmusica.com/wp-content/uploads/2022/02/Dji-Tafinha-Conflituoso-feat-Raphael.mp3"></source>
+                            </audio>
+
+    </div>
+    
+    <!--sessao de Filmes-->
+
+    <div id="Filmesfavoritos"> 
+        <br><hr>          
+          <h3>Filmes Favoritos</h3>
+             
+<li><a href="https://www.youtube.com/watch?v=Kf_J9MVIp-Y" target="new blank">John wick 3</a></li><br>
+<li><a href="https://www.youtube.com/watch?v=Kf_J9MVIp-Y" target="new blank">Esquatdrao suicida</a></li><br>
+<li><a href="https://www.youtube.com/watch?v=Kf_J9MVIp-Y" target="new blank">Gondzila ultimate</a></li><br>
+
+
+     <!--sessao de contacto-->
+
+        <br><hr>
+          <h3> CONTACTO</h3>
+       
+        <div id="Contacto">
+    <form action="/action_page.php">
+
+<label for="fname">Nome Completo</label><br>
+<input type="text" id="Nome Completo"><br>
+<br>
+<label for="Email">Email</label><br>
+<input type="text/number" id="Email" name="Email" ><br>
+<br>
+<label for="lnumbers">Celular</label><br>
+<input type="number" id="lnumber" name="Celular"> <br>
+<br>
+<label for="">Assunto</label><br>
+<input type="text" id="Assunto" name="Assunto"> <br>
+<br>
+<label>Mensagem</label> <br>
+<textarea rows="10" colunas="15"> </textarea><br>
+<br>
+ <button><a href=""> submeter</button> <br>
+  
+    
+</form> 
+</div>   
+</body>
+</html>
